@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane fx:id="paneMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="imgPaneMain" prefHeight="600.0" prefWidth="300.0" styleClass="imgPaneMain" stylesheets="@../../style/styleMain.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="401.0" AnchorPane.topAnchor="0.0" />
+      <JFXButton layoutX="648.0" layoutY="485.0" onAction="#descrifrarBtn" styleClass="descrifrarBtn" stylesheets="@../../style/styleMain.css" text="Descifrar" textAlignment="CENTER" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXTextArea fx:id="textWelcome" editable="false" focusColor="BLACK" layoutX="484.0" layoutY="126.0" prefHeight="98.0" prefWidth="234.0" styleClass="textWelcome" stylesheets="@../../style/styleMain.css" text="¡HOLA!&#10;&#10;¿Qué vamos a hacer hoy?" unFocusColor="#87e6f6" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </JFXTextArea>
+      <JFXTextArea fx:id="textExplain" editable="false" focusColor="BLACK" layoutX="475.0" layoutY="273.0" prefHeight="145.0" prefWidth="248.0" styleClass="textExplain" stylesheets="@../../style/styleMain.css" text="Este software cifra archivos y/o descifra archivos.&#10;&#10;Escoge la opción que gustes :3" unFocusColor="#87e6f6" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </JFXTextArea>
+      <JFXButton layoutX="463.0" layoutY="485.0" onAction="#cifrarBtn" styleClass="cifrarBtn" stylesheets="@../../style/styleMain.css" text="Cifrar" textAlignment="CENTER" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

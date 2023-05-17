@@ -1,0 +1,67 @@
+.imgPaneMain{
+    -fx-background-image: url("/img/seguridad.jpg");
+    -fx-background-size: 300 600;
+    -fx-background-position: center center;
+}
+
+.textWelcome {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold ;
+    -fx-font-size: 16px;
+}
+
+.textExplain{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-weight: bold ;
+    -fx-font-size: 16px;
+
+}
+
+
+.cifrarBtn:hover{
+    -fx-background-color: #87E6F6;
+    -fx-border-color: BLACK;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: BLACK;
+    -fx-font-weight: bold ;
+    -fx-font-size: 16px;
+}
+
+.cifrarBtn{
+    -fx-border-radius: 40px;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #87E6F6;
+    -fx-background-color: #1D1B20;
+    -fx-background-radius: 40px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: WHITE;
+    -fx-font-weight: bold ;
+    -fx-font-size: 16px;
+
+}
+
+
+.descrifrarBtn:hover{
+    -fx-background-color: #87E6F6;
+    -fx-border-color: BLACK;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: BLACK;
+    -fx-font-weight: bold ;
+    -fx-font-size: 16px;
+}
+
+.descrifrarBtn{
+    -fx-border-radius: 40px;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #87E6F6;
+    -fx-background-color: #1D1B20;
+    -fx-background-radius: 40px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: WHITE;
+    -fx-font-weight: bold ;
+    -fx-font-size: 16px;
+
+}
+
