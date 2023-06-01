@@ -1,7 +1,6 @@
-
 # <b> _*jfx-Cybersecurity*_ </b>
 
-    jfx-Cybersecurity es un software que se encarga de cifrar y/o desifrar archivos.
+    jfx-Cybersecurity es un software que se encarga de cifrar y/o descifrar archivos.
     1) Cifrar archivo. Debe recibir como entrada un archivo cualquiera, y una contraseña. 
     A partir de la contraseña, debe generarse una clave de 256 bits, empleando el algoritmo PBKDF2. 
     Por último, el archivo debe cifrarse con el algoritmo AES, usando la clave obtenida; 
@@ -13,7 +12,7 @@
 
 ## <b> Documentación </b> 📄
 
-- *!Here Link!: [Documentación](https://github.com/camilogonzalez7424/jfx-cybersecurity/blob/master/docs/informe.md)*
+- *[Informe](https://github.com/camilogonzalez7424/jfx-cybersecurity/blob/master/docs/informe.md)* - Documentación del proyecto e informe final 
 
 ## <b> Contruido con </b> 🛠
 
@@ -53,7 +52,7 @@ Para poder utilizar este software es necesario importar la libreria Jfoenix en t
 - Java
 - Escoger el archivo JAR descargado.
 
-**Ver** [Tutoria Intellij IDEA](https://www.youtube.com/watch?v=yAivHMoLR7o)
+**Ver** [Tutorial Intellij IDEA](https://www.youtube.com/watch?v=yAivHMoLR7o)
 
 
 
@@ -66,17 +65,14 @@ Para poder utilizar este software es necesario importar la libreria Jfoenix en t
 COMING SOON...
 
 
-
-
 ## <b> Hecho por: </b>
-<b> 😊😊 Operartion Group: 😊😊 </b>
+<b> 😊😊 Operation Group: 😊😊 </b>
 
 + [Nicolás Gómez Botero](https://github.com/nicolasg1911 "Nicolás G.")
 + [Camilo González Velasco](https://github.com/camilogonzalez7424 "Camilo G.")
 + [Jhorman G. Mera Escobar](https://github.com/JhormanMera "Jhorman M.")
 
 <br>
-
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
